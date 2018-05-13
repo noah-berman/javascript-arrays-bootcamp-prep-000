@@ -9,9 +9,14 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
 }
 
 function addElementToEndofArray (array, element) {
-  return newArray = [...${array}, ${element} ]
+  return newArray = [...${array}, ${element}]
 }
 
 function destructivelyAddElementToEndOfArray (array, element) {
-  return ${array} = [${element}, ...${array}]
+  return ${array} = [...${array}, ${element}]
 }
+
+function accessElementInArray (array, index) {
+  console.log(${array}[${index}])
+}
+
