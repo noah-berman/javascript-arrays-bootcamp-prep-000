@@ -20,3 +20,12 @@ function accessElementInArray (array, index) {
   console.log(${array}[${index}])
 }
 
+function destructivelyRemoveElementFromBeginningOfArray (array) {
+  ${array}.shift()
+ console.log(${array})
+}
+
+function removeElementFromBeginningOfArray (array) {
+  
+}
+}
