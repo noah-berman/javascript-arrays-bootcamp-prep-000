@@ -1,4 +1,4 @@
-var chocolateBars = new Array ("snickers", "hundred grand", "kitkat", "skittles")
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 function addElementToBeginningofArray (array, element) {
   return newArray = [${element}, ...${array}]
