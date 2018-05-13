@@ -1,3 +1,9 @@
-var chocolateBars = new Array ('snickers', 'hundred grand', 'kitkat', 'skitles'
-)
-var superheroines = ["catwoman", "she-hulk", "mystique"];
+var chocolateBars = new Array ('snickers', 'hundred grand', 'kitkat', 'skittles')
+
+function addElementToBeginningofArray (array, element) {
+  return newArray = [${element}, ...${array}]
+}
+
+function destructivelyAddElementToBeginningOfArray (array, element) {
+  return ${array} = [${element}, ...${array}]
+}
